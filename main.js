@@ -111,10 +111,16 @@ mochila.pop(mochila.length - 1);
 console.log(mochila); */
 
 /* --EJERCICIO 12 */
-const inventario = ["llave"];
+/* const inventario = ["llave"];
  
 if (inventario.includes("llave")) {
     console.log("la puerta se abre");
 } else {
     console.log("necesitas una llave para abrir la puerta");
+} */
+
+/*--EJERCICIO 13--*/
+function saludarUsuario(nombre) {
+    console.log("Hola, " + nombre + "!");
 }
+saludarUsuario("Milo");
