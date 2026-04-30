@@ -153,7 +153,7 @@ console.log("Nivel del jugador: " + jugador.nivel);
 console.log("Inventario del jugador: " + jugador.inventario); */
 
 /*--EJERCICIO 17--*/
-const jugador = {
+/* const jugador = {
  nombre: "Kai",
  nivel: 1,
  monedas: 0
@@ -165,4 +165,15 @@ function subirNivel(jugador) {
  jugador.monedas += 50;
 }
 subirNivel(jugador);
-console.log(jugador);
+console.log(jugador); */
+
+/* --EJERCICIO 18-- */
+const person = [
+    { nombre: "Luna", vida: 100, tipo: "Maga", nivel: 5 },
+    { nombre: "Kai", vida: 120, tipo: "Guerrero", nivel: 4 },
+    { nombre: "Nina", vida: 90, tipo: "Arquera", nivel: 3 }
+];
+
+for (let i = 0; i < person.length; i++) {
+    console.log(person[i].nombre + " es: " + person[i].tipo + " con nivel " + person[i].nivel);
+}
