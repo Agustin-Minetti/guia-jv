@@ -23,7 +23,11 @@ boton.addEventListener("click", function () {
  const numero = parseFloat(valor);
  const resultado = numero + 10;
  mensaje.textContent = "El resultado es: " + resultado;
- // Convertir valor a número
- // Sumar 10
- // Mostrar el resultado en pantalla
 });
+
+const edad = prompt("Ingresa tu edad:");
+if (edad >= 13) {
+ alert("Podes Jugar al juego");
+} else {
+ alert("No podes jugar al juego todavia");
+}
