@@ -126,8 +126,15 @@ if (inventario.includes("llave")) {
 saludarUsuario("Milo"); */
 
 /* --EJERCICIO 14-- */
-function calcularVidaRestante(vida, danio) {
+/* function calcularVidaRestante(vida, danio) {
     return vida - danio;
 }
-let resultado = calcularVidaRestante(50, 20);
-console.log(resultado);
+let resultado = calcularVidaRestante(100, 30);
+console.log(resultado); */
+
+/* --EJERCICIO 15-- */
+const sumar = (a, b) => {
+    return a + b;
+};
+
+console.log(sumar(10, 5));
