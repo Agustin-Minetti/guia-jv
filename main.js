@@ -88,8 +88,15 @@ for (let ronda = 1; ronda <= 5; ronda++) {
 console.log(puntajeTotal); */
 
 /* --EJERCICIO 9-- */
-const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
+/* const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
 
 console.log(inventario[0]); // espada
 console.log(inventario[4]); // mapa
-console.log(inventario.length); // 5
+console.log(inventario.length); // 5 */
+
+/* --EJERCICIO 10-- */
+const inventario = ["espada", "poción", "llave", "escudo"];
+
+for (let i = 0; i < inventario.length; i++) {
+    console.log(inventario[i]);
+}
