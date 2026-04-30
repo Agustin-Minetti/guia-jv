@@ -139,7 +139,7 @@ console.log(resultado); */
 console.log(sumar(10, 5)); */
 
 /* --EJERCICIO 16-- */
-const jugador = {
+/* const jugador = {
  nombre: "Luna",
  vida: 100,
  energia: 80,
@@ -150,4 +150,19 @@ console.log("Nombre del jugador: " + jugador.nombre);
 console.log("Vida del jugador: " + jugador.vida);
 console.log("Energía del jugador: " + jugador.energia);
 console.log("Nivel del jugador: " + jugador.nivel);
-console.log("Inventario del jugador: " + jugador.inventario);
+console.log("Inventario del jugador: " + jugador.inventario); */
+
+/*--EJERCICIO 17--*/
+const jugador = {
+ nombre: "Kai",
+ nivel: 1,
+ monedas: 0
+};
+console.log(jugador);
+
+function subirNivel(jugador) {
+ jugador.nivel += 1;
+ jugador.monedas += 50;
+}
+subirNivel(jugador);
+console.log(jugador);
