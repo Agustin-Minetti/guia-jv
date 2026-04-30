@@ -213,3 +213,12 @@ boton.addEventListener("click", function () {
     puntos += 10;
     mensaje.textContent = "Puntos: " + puntos;
 });
+
+/* --EJERCICIO 25-- */
+boton.addEventListener("click", function () {
+    if (input.value === "") {
+        mensaje.textContent = "Por favor, ingresa un nombre.";
+    } else {
+        mensaje.textContent = "Bienvenido/a, " + input.value + "!";
+    }
+});
