@@ -194,3 +194,10 @@ const personajeEncontrado = persona.find((persona) => {
     return persona.nombre === "Kai";
 });
 console.log("Personaje encontrado:", personajeEncontrado);
+
+/* --EJERCICIO 22-- */
+const vidaTotal = persona.reduce((acumulador, persona) => {
+    acumulador += persona.vida;
+    return acumulador;
+}, 0);
+console.log("Vida total de todos los personajes juntos:", vidaTotal);
