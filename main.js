@@ -201,3 +201,7 @@ const vidaTotal = persona.reduce((acumulador, persona) => {
     return acumulador;
 }, 0);
 console.log("Vida total de todos los personajes juntos:", vidaTotal);
+
+/* --EJERCICIO 23-- */
+mensaje.textContent = "Bienvenido a la guía de JavaScript";
+mensaje.style.color = "blue";
