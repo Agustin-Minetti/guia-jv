@@ -10,3 +10,27 @@ El SCOPE es el lugar del codigo donde una variable existe y puede ser usada, la 
 Lo primero que se muestra es el LOCAL que se encuentra dentro de la funcion (ya que existe solo dentro de la funcion) y luego se muestra el GLOBAL (la cual existe dentro de todo el programa)
 
 <!-- EJERCICIO 29 -->
+Combiene usar un ARRAY cuando tenemos una lista de elementos del mismo tipo o que siguen un orden, y combiene usar un OBJETO cuando queremos representar una entidad con diferentes caracteristicas o propiedades
+La estructura const inventario = ["espada", "poción", "llave"]; representa un ARRAY ya que todos los items/objetos que el jugador puede usar
+La estructura:
+const jugador = {
+ nombre: "Luna",
+ vida: 100,
+ nivel: 3
+};
+es un OBJETO porque representa a un personaje con distintos atributos o datos (nombre, vida, etc) cada uno con sus propias propiedades
+
+<!-- EJERCICIO 30 -->
+Un evento en JavaScript es una accion que ocurre en la pagina (como un click, presionar una tecla, mover el mouse y demas) y que JavaScript puede detectar para ejecutar un codigo
+
+boton.addEventListener("click", function () {
+ console.log("El usuario hizo clic");
+});
+
+El elemento que escucha al evento es Boton
+el evento que se esta escuchando es el "click"
+y la accion que se ejecuta es el mensaje que se muestra en la consola "El usuario hizo Click"
+
+Por ejemplo, En un boton de "jugar" para uniciar el juego
+En un boton de atacar para que eljugador realize una accion cuando lo clickee
+En un menu para seleccionar opciones
