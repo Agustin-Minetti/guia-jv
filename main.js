@@ -168,23 +168,29 @@ subirNivel(jugador);
 console.log(jugador); */
 
 /* --EJERCICIO 18-- */
-const person = [
+const persona = [
     { nombre: "Luna", vida: 100, tipo: "Maga", nivel: 5 },
     { nombre: "Kai", vida: 120, tipo: "Guerrero", nivel: 4 },
     { nombre: "Nina", vida: 90, tipo: "Arquera", nivel: 3 }
 ];
-for (let i = 0; i < person.length; i++) {
-    console.log(person[i].nombre + " es: " + person[i].tipo + " con nivel " + person[i].nivel);
+for (let i = 0; i < persona.length; i++) {
+    console.log(persona[i].nombre + " es: " + persona[i].tipo + " con nivel " + persona[i].nivel);
 }
 
 /* --EJERCICIO 19-- */
-const personajesFuertes = person.filter((person) => {
-    return person.nivel > 3;
+const personajesFuertes = persona.filter((persona) => {
+    return persona.nivel > 3;
 });
 console.log( "Personajes fuertes:", personajesFuertes);
 
 /* --EJERCICIO 20-- */
-const nombresPersonajes = person.map((person) => {
-    return person.nombre;
+const nombresPersonajes = persona.map((persona) => {
+    return persona.nombre;
 });
 console.log("Nombres de los personajes:", nombresPersonajes);
+
+/* --EJERCICIO 21-- */
+const personajeEncontrado = persona.find((persona) => {
+    return persona.nombre === "Kai";
+});
+console.log("Personaje encontrado:", personajeEncontrado);
