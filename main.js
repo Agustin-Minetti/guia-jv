@@ -222,3 +222,13 @@ boton.addEventListener("click", function () {
         mensaje.textContent = "Bienvenido/a, " + input.value + "!";
     }
 });
+
+/* --EJERCICIO 26-- */
+const jugador = {
+ nombre: "Luna",
+ puntaje: 1500
+};
+localStorage.setItem("jugador", JSON.stringify(jugador));
+const jugadorGuardado = localStorage.getItem("jugador");
+const jugadorRecuperado = JSON.parse(jugadorGuardado);
+console.log("Jugador recuperado:", jugadorRecuperado);
