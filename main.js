@@ -173,7 +173,12 @@ const person = [
     { nombre: "Kai", vida: 120, tipo: "Guerrero", nivel: 4 },
     { nombre: "Nina", vida: 90, tipo: "Arquera", nivel: 3 }
 ];
-
 for (let i = 0; i < person.length; i++) {
     console.log(person[i].nombre + " es: " + person[i].tipo + " con nivel " + person[i].nivel);
 }
+
+/* --EJERCICIO 19-- */
+const personajesFuertes = person.filter((person) => {
+    return person.nivel > 3;
+});
+console.log( "Personajes fuertes:", personajesFuertes);
