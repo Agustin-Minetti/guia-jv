@@ -1,20 +1,27 @@
 console.log("Guía JavaScript iniciada");
 
-const nombre = "Luna";
+const input = document.getElementById("dato");
+const boton = document.getElementById("btn");
+const mensaje = document.getElementById("mensaje");
+
+/* --EJERCICIO 1-- */
+/* const nombre = "Luna";
 let edad = 18;
 let vida = 100;
 let puntaje = 0;
-let estaActivo = true;
+let estaActivo = true; */
 
-console.log(nombre, edad, vida, puntaje, estaActivo);
+/* console.log(nombre, edad, vida, puntaje, estaActivo); */
 
-let puntosBase = 100;
+/* --EJERCICIO 2-- */
+/* let puntosBase = 100;
 let bonus = 50;
 let penalizacion = 20;
 let puntajeTotal = puntosBase + bonus - penalizacion;
-console.log(puntajeTotal);
+console.log(puntajeTotal); */
 
-const input = document.getElementById("dato");
+/* --EJERCICIO 3-- */
+/* const input = document.getElementById("dato");
 const boton = document.getElementById("btn");
 const mensaje = document.getElementById("mensaje");
 
@@ -23,11 +30,24 @@ boton.addEventListener("click", function () {
  const numero = parseFloat(valor);
  const resultado = numero + 10;
  mensaje.textContent = "El resultado es: " + resultado;
-});
+}); */
 
-const edad = prompt("Ingresa tu edad:");
+/* --EJERCICIO 4-- */
+/* const edad = prompt("Ingresa tu edad:");
 if (edad >= 13) {
  alert("Podes Jugar al juego");
 } else {
  alert("No podes jugar al juego todavia");
-}
+} */
+
+boton.addEventListener("click", function () {
+    if (input.value > 70) {
+        mensaje.textContent = "Jugador en buen estado";
+    } else if (input.value > 30) {
+        mensaje.textContent = "Jugador herido";
+    } else if(input.value > 1) {
+        mensaje.textContent = "Jugador en peligro";
+    } else {
+        mensaje.textContent = "game over";
+    }
+});
