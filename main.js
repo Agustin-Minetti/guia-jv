@@ -79,10 +79,17 @@ switch (opcion) {
 console.log("Empieza"); */
 
 /* --EJERCICIO 8-- */
-let puntajeTotal = 0;
+/* let puntajeTotal = 0;
 
 for (let ronda = 1; ronda <= 5; ronda++) {
     let puntosRonda = 10;
     puntajeTotal += puntosRonda;
 }
-console.log(puntajeTotal);
+console.log(puntajeTotal); */
+
+/* --EJERCICIO 9-- */
+const inventario = ["espada", "poción", "llave", "escudo", "mapa"];
+
+console.log(inventario[0]); // espada
+console.log(inventario[4]); // mapa
+console.log(inventario.length); // 5
