@@ -133,8 +133,21 @@ let resultado = calcularVidaRestante(100, 30);
 console.log(resultado); */
 
 /* --EJERCICIO 15-- */
-const sumar = (a, b) => {
+/* const sumar = (a, b) => {
     return a + b;
 };
+console.log(sumar(10, 5)); */
 
-console.log(sumar(10, 5));
+/* --EJERCICIO 16-- */
+const jugador = {
+ nombre: "Luna",
+ vida: 100,
+ energia: 80,
+ nivel: 1,
+ inventario: ["espada", "poción"]
+};
+console.log("Nombre del jugador: " + jugador.nombre);
+console.log("Vida del jugador: " + jugador.vida);
+console.log("Energía del jugador: " + jugador.energia);
+console.log("Nivel del jugador: " + jugador.nivel);
+console.log("Inventario del jugador: " + jugador.inventario);
