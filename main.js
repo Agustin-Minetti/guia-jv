@@ -182,3 +182,9 @@ const personajesFuertes = person.filter((person) => {
     return person.nivel > 3;
 });
 console.log( "Personajes fuertes:", personajesFuertes);
+
+/* --EJERCICIO 20-- */
+const nombresPersonajes = person.map((person) => {
+    return person.nombre;
+});
+console.log("Nombres de los personajes:", nombresPersonajes);
