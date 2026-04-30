@@ -120,7 +120,14 @@ if (inventario.includes("llave")) {
 } */
 
 /*--EJERCICIO 13--*/
-function saludarUsuario(nombre) {
+/* function saludarUsuario(nombre) {
     console.log("Hola, " + nombre + "!");
 }
-saludarUsuario("Milo");
+saludarUsuario("Milo"); */
+
+/* --EJERCICIO 14-- */
+function calcularVidaRestante(vida, danio) {
+    return vida - danio;
+}
+let resultado = calcularVidaRestante(50, 20);
+console.log(resultado);
