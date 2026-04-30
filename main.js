@@ -95,8 +95,17 @@ console.log(inventario[4]); // mapa
 console.log(inventario.length); // 5 */
 
 /* --EJERCICIO 10-- */
-const inventario = ["espada", "poción", "llave", "escudo"];
+/* const inventario = ["espada", "poción", "llave", "escudo"];
 
 for (let i = 0; i < inventario.length; i++) {
     console.log(inventario[i]);
-}
+} */
+
+/*--EJERCICIO 11--*/
+let mochila = [];
+
+mochila.push("Linterna");
+mochila.push("Comida");
+mochila.push("Mapa");
+mochila.pop(mochila.length - 1);
+console.log(mochila);
