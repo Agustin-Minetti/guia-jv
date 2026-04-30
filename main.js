@@ -40,7 +40,8 @@ if (edad >= 13) {
  alert("No podes jugar al juego todavia");
 } */
 
-boton.addEventListener("click", function () {
+ /* --EJERCICIO 5-- */
+/* boton.addEventListener("click", function () {
     if (input.value > 70) {
         mensaje.textContent = "Jugador en buen estado";
     } else if (input.value > 30) {
@@ -50,4 +51,23 @@ boton.addEventListener("click", function () {
     } else {
         mensaje.textContent = "game over";
     }
-});
+}); */
+
+/* --EJERCICIO 6-- */
+let opcion = "salir";
+switch (opcion) {
+    case "iniciar":
+        console.log("Juego iniciado");
+        break;
+    case "configuracion":
+        console.log("Configurando el juego");
+        break;
+    case "creditos":
+        console.log("Mostrando créditos");
+        break;
+    case "salir":
+        console.log("Saliendo del juego");
+        break;
+    default:
+        console.log("Opción no válida");
+}
