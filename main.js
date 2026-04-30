@@ -205,3 +205,11 @@ console.log("Vida total de todos los personajes juntos:", vidaTotal);
 /* --EJERCICIO 23-- */
 mensaje.textContent = "Bienvenido a la guía de JavaScript";
 mensaje.style.color = "blue";
+
+/* --EJERCICIO 24-- */
+let puntos = 0;
+
+boton.addEventListener("click", function () {
+    puntos += 10;
+    mensaje.textContent = "Puntos: " + puntos;
+});
