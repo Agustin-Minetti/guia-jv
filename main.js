@@ -102,10 +102,19 @@ for (let i = 0; i < inventario.length; i++) {
 } */
 
 /*--EJERCICIO 11--*/
-let mochila = [];
+/* let mochila = [];
 
 mochila.push("Linterna");
 mochila.push("Comida");
 mochila.push("Mapa");
 mochila.pop(mochila.length - 1);
-console.log(mochila);
+console.log(mochila); */
+
+/* --EJERCICIO 12 */
+const inventario = ["llave"];
+ 
+if (inventario.includes("llave")) {
+    console.log("la puerta se abre");
+} else {
+    console.log("necesitas una llave para abrir la puerta");
+}
