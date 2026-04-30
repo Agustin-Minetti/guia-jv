@@ -54,7 +54,7 @@ if (edad >= 13) {
 }); */
 
 /* --EJERCICIO 6-- */
-let opcion = "salir";
+/* let opcion = "salir";
 switch (opcion) {
     case "iniciar":
         console.log("Juego iniciado");
@@ -70,4 +70,10 @@ switch (opcion) {
         break;
     default:
         console.log("Opción no válida");
+} */
+
+/* --EJERCICIO 7-- */
+for (let i = 3; i >= 1; i--) {
+    console.log(i);
 }
+console.log("Empieza");
